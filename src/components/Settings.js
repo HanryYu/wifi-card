@@ -30,7 +30,7 @@ export const Settings = (props) => {
 
   return (
     <Pane id="settings" maxWidth={props.settings.portrait ? '350px' : '100%'}>
-      <SelectField
+      {/* <SelectField
         width={300}
         inputHeight={38}
         label={t('select')}
@@ -42,7 +42,7 @@ export const Settings = (props) => {
             {t.name}
           </option>
         ))}
-      </SelectField>
+      </SelectField> */}
 
       <Checkbox
         label={t('button.rotate')}

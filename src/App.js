@@ -118,10 +118,9 @@ function App() {
 
         <Paragraph marginTop={12}>
           {t('desc.privacy')}{' '}
-          <Link href="https://github.com/bndw/wifi-card">
+          {/* <Link href="https://github.com/bndw/wifi-card">
             {t('desc.source')}
-          </Link>
-          .
+          </Link> */}
         </Paragraph>
       </Pane>
 
